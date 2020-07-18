@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/featured"
+                android:icon="@drawable/ic_menu_feature"
+                android:title="Featured" />
+            <!--<item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />-->
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/setting"
+                android:title="Setting" />
+            <item
+                android:id="@+id/history_id"
+                android:icon="@drawable/history"
+                android:title="History" />
+            <item
+                android:id="@+id/nav_document_id"
+                android:icon="@drawable/attach_file"
+                android:title="Document" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/about_us"
+                android:title="About this app"/>
+            <!--<item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/contact_us"
+                android:title="Contact us"/>-->
+            <item
+                android:id="@+id/rate_this_app_id"
+                android:icon="@drawable/rate_this_app"
+                android:title="Rate this app" />
+            <item
+                android:id="@+id/logout_id"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
